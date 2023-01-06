@@ -1,22 +1,2224 @@
 {
-  "feedback": [
+  "listings": [
     {
       "id": 1,
-      "rating": 10,
-      "user_name": "Tony Stark",
-      "text": "You are the ironman of this world"
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
     },
     {
       "id": 2,
-      "rating": 9,
-      "user_name": "Bruce Wayne",
-      "text": "You are the batman of this world"
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/vvah86ql8iM",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/fBdlytm6Hp8",
+        "https://source.unsplash.com/AQl-J19ocWE"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
     },
     {
       "id": 3,
-      "rating": 8,
-      "user_name": "Peter Parker",
-      "text": "You are the spiderman of this world"
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 4,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 5,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 6,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 7,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 8,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 9,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 10,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 11,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 12,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 13,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 14,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 15,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 16,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 17,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 18,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 19,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 20,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 21,
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 22,
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 23,
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 24,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 25,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 26,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 27,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 28,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 29,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 30,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 31,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 32,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 33,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 34,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 35,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 36,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 37,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 38,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 39,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 40,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 41,
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 42,
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 43,
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 44,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 45,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 46,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 47,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 48,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 49,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 50,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 51,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 52,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 53,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 54,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 55,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 56,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 57,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 58,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 59,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 60,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 61,
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 62,
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/vvah86ql8iM",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/fBdlytm6Hp8",
+        "https://source.unsplash.com/AQl-J19ocWE"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 63,
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 64,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 65,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 66,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 67,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 68,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 69,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 70,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 71,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 72,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 73,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 74,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 75,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 76,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 77,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 78,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 79,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 80,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 81,
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 82,
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/vvah86ql8iM",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/fBdlytm6Hp8",
+        "https://source.unsplash.com/AQl-J19ocWE"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 83,
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 84,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 85,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 86,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 87,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 88,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 89,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 90,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 91,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 92,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 93,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 94,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 95,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 96,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 97,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 98,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 99,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 100,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 101,
+      "name": "Cozy Beachfront Bungalow",
+      "address": "123 Main Street, Beachville, CA 12345",
+      "price_per_night": 125,
+      "max_guests": 4,
+      "num_bedrooms": 2,
+      "num_bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "reviews": [
+        {
+          "rating": 5,
+          "text": "We had a great stay at this bungalow! The location was perfect and the amenities were exactly as described. We would definitely stay here again."
+        },
+        {
+          "rating": 4,
+          "text": "The bungalow was nice and clean, and the location was great. The only issue we had was that the wifi was a bit spotty at times. Overall, we had a good experience."
+        }
+      ],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 102,
+      "name": "Luxurious Beachfront Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/vvah86ql8iM",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/fBdlytm6Hp8",
+        "https://source.unsplash.com/AQl-J19ocWE"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxurious beachfront villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 103,
+      "name": "Cozy Studio in the Heart of the City",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/B0aCvAVSX8E",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This cozy studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 104,
+      "name": "Charming Country Cottage",
+      "address": "789 Rural Rd, Anytown, USA 12345",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This charming country cottage is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 105,
+      "name": "Rustic Mountain Cabin",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This rustic mountain cabin is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The cabin has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 106,
+      "name": "Lakeside Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This lakeside retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 107,
+      "name": "Coastal Getaway",
+      "address": "369 Beachfront Ave, Coast, USA 98765",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal getaway is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The house has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 108,
+      "name": "Urban Oasis",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban oasis is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 109,
+      "name": "Luxury Downtown Condo",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury downtown condo is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The condo has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
+    },
+    {
+      "id": 110,
+      "name": "Elegant Townhouse",
+      "address": "159 Elegant St, Town, USA 33333",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This elegant townhouse is located in a charming neighborhood. It can accommodate up to 8 guests and features a full kitchen and wifi. The house has a cozy fireplace in the living room and a private backyard for entertaining."
+    },
+    {
+      "id": 111,
+      "name": "Coastal Cottage",
+      "address": "369 Beachfront Ave, Coast, USA 45678",
+      "price": 175,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal cottage is located on a beautiful beachfront. It can accommodate up to 6 guests and features a full kitchen and wifi. The cottage has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 112,
+      "name": "Mountain Chalet",
+      "address": "321 Wilderness Way, Mountains, USA 12345",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain chalet is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The chalet has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 113,
+      "name": "Country House",
+      "address": "789 Rural Rd, Anytown, USA 45678",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This country house is located in a picturesque rural setting. It can accommodate up to 4 guests and features a full kitchen and wifi. The living room has a cozy fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 114,
+      "name": "Tropical Villa",
+      "address": "456 Ocean Dr, Miami, FL 33139",
+      "price": 300,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This tropical villa is located in Miami and can accommodate up to 8 guests. It features a full kitchen, pool, and TVs in every bedroom. The outdoor patio is perfect for BBQs and watching the sunset."
+    },
+    {
+      "id": 115,
+      "name": "City Studio",
+      "address": "123 Main St, New York, NY 10001",
+      "price": 75,
+      "guests": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This city studio is located in the heart of the city and is perfect for solo travelers or couples. It features a full kitchen and wifi. The building also has a shared laundry facility."
+    },
+    {
+      "id": 116,
+      "name": "Beach Bungalow",
+      "address": "789 Beach Blvd, Los Angeles, CA 90210",
+      "price": 125,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This beach bungalow is located on a beautiful beachfront. It can accommodate up to 4 guests and features a full kitchen and wifi. The bungalow has a large deck with ocean views, perfect for watching the sunrise or sunset."
+    },
+    {
+      "id": 117,
+      "name": "Coastal Retreat",
+      "address": "246 Lakeview Dr, Lakeside, USA 45678",
+      "price": 200,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This coastal retreat is located on the shores of a beautiful lake. It can accommodate up to 8 guests and features a full kitchen, wifi, and a pool. The living room has a fireplace and TV for relaxing evenings in."
+    },
+    {
+      "id": 118,
+      "name": "Mountain Lodge",
+      "address": "321 Wilderness Way, Mountains, USA 54321",
+      "price": 125,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This mountain lodge is located in a beautiful wilderness setting. It can accommodate up to 6 guests and features a full kitchen and wifi. The lodge has a cozy fireplace in the living room and a hot tub on the back deck for relaxing after a day of hiking."
+    },
+    {
+      "id": 119,
+      "name": "Urban Apartment",
+      "address": "159 City Center Dr, Metropolis, USA 11111",
+      "price": 150,
+      "guests": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This urban apartment is located in the heart of the city. It can accommodate up to 4 guests and features a full kitchen, wifi, and a pool. The apartment has a rooftop deck with city views, perfect for relaxing after a day of exploring the city."
+    },
+    {
+      "id": 120,
+      "name": "Luxury Suite",
+      "address": "753 Highrise Way, Downtown, USA 22222",
+      "price": 250,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "photos": [
+        "https://source.unsplash.com/2d4lAQAlbDA",
+        "https://source.unsplash.com/pzMghCq2kS0",
+        "https://source.unsplash.com/MP0bgaS_d1c",
+        "https://source.unsplash.com/cJeTNtkfpDA",
+        "https://source.unsplash.com/so3wgJLwDxo"
+      ],
+      "amenities": ["wifi", "kitchen", "pool", "tv"],
+      "description": "This luxury suite is located in the heart of the city. It can accommodate up to 6 guests and features a full kitchen, wifi, and a pool. The suite has stunning city views from the floor-to-ceiling windows and a rooftop deck for entertaining."
     }
   ]
 }
